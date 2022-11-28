@@ -6,6 +6,14 @@ RExPRT is a machine learning Repeat Expansion Pathogenicity pRediction Tool. REx
 
 RExPRT requires as input the coordinates and motif for each TR to be scored. These data are then used to annotate with informative features, which are used to classify the TRs into benign and pathogenic categories based on an ensemble model of support vector machines (SVM) and XGBoost (XGB). 
 
+The figure below illustrates a schematic of how RExPRT was trained, tested, and the methods used for selecting the best performing models.
+
+<figure>
+  <p align="center">
+  <img src="Figures/Fig1.png" width="700" align="center">
+  </p>
+</figure>
+
 
 ## Download
 
@@ -19,7 +27,7 @@ Recommended for use with latest versions. RExPRT has been tested on the followin
 2. [Python](https://www.python.org/downloads/) 3.9.2
 3. [AWS client](http://docs.amazonworkspaces.com/qs_download_client.html)
 
-If running RExPRT on your local computer, __GB of space is required.
+Running RExPRT requires __GB of space.
 
 
 ## Installation
