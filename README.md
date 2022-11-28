@@ -55,7 +55,7 @@ RExpRT requires one argument: a tab delimited file containing TRs.
 chr start end motif sampleID
 ```
 
-* The TR coordinates (chr, start, and end sites) should be precise rather than including non-repetitive flanking sequence on either side.
+* The TR coordinates (chr, start, and end sites) should be for the hg19 reference. It is preferrential to have precise coordinates rather than including non-repetitive flanking sequence on either side.
 
 * If there is no sampleID, or TRs belong to a single sample, this column is still required and should be filled with some identifying information. 
 
