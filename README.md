@@ -9,18 +9,18 @@ RExPRT requires as input the coordinates and motif for each TR to be scored. The
 
 ## Download
 
-The latest version of RExPRT can be downloaded under Releases (LINK).
+The latest version of RExPRT can be downloaded under [Releases](https://github.com/ZuchnerLab/RExPRT/releases).
 
 
 ## Prerequisites
 
-Recommended for use with latest versions. Tested on:
-Add links to where you can download it
-R 3.6.1
-python 3.9.2
-AWS client
+Recommended for use with latest versions. RExPRT has been tested on the following versions:
+1. [R](https://www.r-project.org) 3.6.1
+2. [Python](https://www.python.org/downloads/) 3.9.2
+3. [AWS client](http://docs.amazonworkspaces.com/qs_download_client.html)
 
 If running RExPRT on your local computer, __GB of space is required.
+
 
 ## Installation
 
@@ -30,26 +30,26 @@ Downlaod the latest release of RExPRT and make the RExPRT.sh file executable:
 chmod +x RExPRT.sh
 ```
 
+
 ## Basic usage
 
 To run RExPRT using default parameters run:
 
 ```
 ./RExPRT.sh TR_file.txt
-
 ```
 
-Required arguments:
-Tab delimited file containing TRs. This file should have 5 columns with the following header:
+RExpRT requires one argument: a tab delimited file containing TRs. 
+
+* This file should have at least 5 columns with the following header:
 
 ```
 chr start end motif sampleID
-
 ```
 
-The TR coordinates (chr, start, and end sites) should be precise rather than including non-repetitive flanking sequence on either side.
+* The TR coordinates (chr, start, and end sites) should be precise rather than including non-repetitive flanking sequence on either side.
 
-If there is no sampleID, or TRs belong to a single sample, this column is still required and should be filled with some identifying information. 
+* If there is no sampleID, or TRs belong to a single sample, this column is still required and should be filled with some identifying information. 
 
 
 ## Output
