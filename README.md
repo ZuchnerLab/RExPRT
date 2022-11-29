@@ -27,7 +27,7 @@ Recommended for use with latest versions. RExPRT has been tested on the followin
 2. [Python](https://www.python.org/downloads/) 3.9.2
 3. [AWS client](http://docs.amazonworkspaces.com/qs_download_client.html)
 
-Running RExPRT requires __GB of space.
+Running RExPRT requires 30GB of space.
 
 
 ## Installation
