@@ -109,7 +109,7 @@ awk '{print $0 "\topReg"}' header > head && mv head header
 cat header intersection > final_annotated.txt
 echo "Finished annotating opRegRegions"
 
-echo "Annotating GTEX"
+echo "Annotating GTEx"
 Rscript --vanilla helper_scripts/gtex_ann.R final_annotated.txt annotation_files/max_tissueExpression_perGene.txt
 echo "Finished annotating GTEX"
 
