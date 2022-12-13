@@ -1,4 +1,5 @@
 #!/bin/bash
+set -eou pipefail
 
 if [ "$1" = "-h" -o "$1" = "--help" ]
 then
@@ -194,7 +195,8 @@ rm combined_gerp.txt
 rm sorted_repeats
 
 #Use ML models to score annotated repeats
-pip install sklearn -q
+pip install scikit-learn==1.1.3
+#pip install sklearn -q
 pip install xgboost -q
 pip install category_encoders -q
 
