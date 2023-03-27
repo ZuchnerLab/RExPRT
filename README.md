@@ -22,11 +22,13 @@ The latest version of RExPRT can be downloaded under [Releases](https://github.c
 
 ## Prerequisites
 
-Recommended for use with latest versions. RExPRT has been tested on the following versions:
+RExPRT is currently built for use in a Linux environment. 
+
+RExPRT has been tested on the following versions:
 1. [R](https://www.r-project.org) 3.6
 2. [Python](https://www.python.org/downloads/) 3.9.2
 
-Running RExPRT requires 30GB of space.
+Running RExPRT requires 16GB of space.
 
 
 ## Installation
