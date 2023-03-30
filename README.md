@@ -71,5 +71,4 @@ RExPRT produces a total of five scores in its output:
 
 
 ## Citation
-The manuscript is currently available on bioRxiv until the review process is complete.
-LINK
+The [manuscript](https://www.biorxiv.org/content/10.1101/2023.03.22.533484v1) is currently available on bioRxiv until the review process is complete.
